@@ -11,6 +11,7 @@ module.exports = {
       'Alpha 700': '#285DAB',
       'Beta 300': '#FF6600',
       'Gamma 300': '#F47136',
+      'Gamma 500': '#666666',
       'Green 100': '#00B900',
     },
     extend: {},
