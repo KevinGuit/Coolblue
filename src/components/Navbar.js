@@ -4,6 +4,7 @@ import { ReactComponent as Chevron_down } from '../icons/chevron-down.svg';
 import { ReactComponent as Icon_log_out } from '../icons/log-out-icon.svg';
 import { ReactComponent as Icon_user } from '../icons/user-icon.svg';
 
+
 const Navbar = () => {
 
     const Links = [
@@ -56,7 +57,7 @@ const Navbar = () => {
                         ))
                     }
                 </ul>
-                <ul className='sm:hidden md:flex md:items-center md:pb-0 pb-12 md:static'>
+                <ul className='md:flex md:items-center md:pb-0 pb-12 md:static hidden'>
                     <li className="flex items-center md:ml-8 md:my-0 my-7 opacity-60 hover:opacity-100">
                         <Icon_user/>
                     <span className="ml-2">Kevin Guit</span> 

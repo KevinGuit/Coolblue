@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
       <div>
         <Navbar/>
       </div>
-      <section></section>
+      <section>
+        <Hero/>
+      </section>
       <section></section>
       <section></section>
       <section></section>
