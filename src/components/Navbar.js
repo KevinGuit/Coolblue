@@ -44,7 +44,7 @@ const Navbar = () => {
                         Links.map((Link) => (
                             <li 
                                 key={Link.name} 
-                                className={`${page === Link.name? 'md:ml-4 md:my-0 my-7 bg-Gamma-300 duration-500': ''}  py-3 px-6 rounded`}
+                                className={`${page === Link.name? 'md:ml-4 md:my-1 my-3 bg-Gamma-300 duration-500': ''} py-1 md:py-3 px-6 rounded`}
                                 >
                                 <a 
                                     onClick={() => setPage(Link.name)} 
@@ -57,7 +57,7 @@ const Navbar = () => {
                         ))
                     }
                 </ul>
-                <ul className='md:flex md:items-center md:pb-0 pb-12 md:static hidden'>
+                <ul className='flex-wrap md:flex md:items-center md:pb-0 pb-12 md:static hidden'>
                     <li className="flex items-center md:ml-8 md:my-0 my-7 opacity-60 hover:opacity-100">
                         <Icon_user/>
                     <span className="ml-2">Kevin Guit</span> 
