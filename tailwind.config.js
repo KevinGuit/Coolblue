@@ -9,7 +9,7 @@ module.exports = {
       'Alpha-300': '#8DC8EA',
       'Alpha-500': '#0090E3',
       'Alpha-700': '#285DAB',
-      'Beta-300': '#FF6600',
+      'Beta-300': '#D6D3EF',
       'Gamma-300': '#F47136',
       'Gamma-500': '#666666',
       'Green-100': '#00B900',

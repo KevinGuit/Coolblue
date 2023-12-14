@@ -1,10 +1,11 @@
 import React from 'react'
 import { ReactComponent as Arrow_right } from '../icons/arrow-right.svg';
 import image_spotlight from '../images/image-spotlight.png';
+import Card from './ScoreCard';
 
 const Hero = () => {
     return (
-        <div className="w-full h-[866px] mt-[64px] bg-Alpha-100">
+        <div className="w-full h-[866px] mt-[70px] bg-Alpha-100">
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
                 <div className="flex items-center justify-center h-full max-w-[583px] pl-20 mt-5">
                     <div className='flex flex-col gap-5'>
@@ -16,8 +17,11 @@ const Hero = () => {
                     </button>
                     </div>
                 </div>
-                <div className='mx-auto my-4'>
-                    <img src={image_spotlight} alt="https://via.placeholder.com/790x612"/>
+                <div className='relative w-full h-auto'>
+                    <img className="z-0" src={image_spotlight} alt="https://via.placeholder.com/790x612"/>
+                    <div className="absolute top-2/3 left-10">
+                        <Card />
+                    </div>
                 </div>
             </div>
         </div>
