@@ -13,6 +13,7 @@ module.exports = {
       'Gamma-300': '#F47136',
       'Gamma-500': '#666666',
       'Green-100': '#00B900',
+      'White': '#fff'
     },
     extend: {},
   },

@@ -1,10 +1,11 @@
 import React from 'react'
+import { ReactComponent as Chevron_down } from '../icons/chevron-down.svg';
 import { ReactComponent as Icon_log_out } from '../icons/log-out-icon.svg';
 import { ReactComponent as Icon_user } from '../icons/user-icon.svg';
 
 const Navbar = () => {
     return (
-        <div className='bg-Alpha-500'>
+        <nav className='flex items-center justify-between px-4 bg-Alpha-500 text-White text-base'>
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="223" height="140" viewBox="0 0 223 140" fill="none">
                     <g clipPath="url(#clip0_7_71)">
@@ -18,24 +19,27 @@ const Navbar = () => {
                     </defs>
                 </svg>
             </div>
-            <ul>
+            <ul className='flex space-x-4 text'> 
                 <li><a>Home</a></li>
                 <li><a>Bibliotheek</a></li>
                 <li><a>Nieuws</a></li>
                 <li><a>Trainingen</a></li>
                 <li><a>Experts</a></li>
             </ul>
-            <div>
-                <div>
+            <div className='flex items-center space-x-4'>
+                <div className="flex items-center">
                     <Icon_user/>
+                   <span className="ml-2">Kevin Guit</span> 
                 </div>
-                <div>
+                <div className="flex items-center space-x-1">
+                    <span>NL</span>
+                    <Chevron_down/>
                 </div>
                 <div>
                     <Icon_log_out/>
                 </div>
             </div>
-        </div>
+        </nav>
     )
 }
 
