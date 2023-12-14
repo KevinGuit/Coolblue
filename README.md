@@ -5,7 +5,7 @@ Verify node.js and npm through command prompt or PowerShell, by running the foll
 [npm -v]
 
 Clone the repository by running the following command to clone the repository:
-[git clone https://github.com/KevinGuit/                                                       .git]
+[git clone https://github.com/KevinGuit/Coolblue.git]                                                   
 
 Navigate to the project directory
 [cd your-repository]
