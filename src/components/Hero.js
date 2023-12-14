@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div className="w-full h-[866px] mt-[70px] bg-Alpha-100">
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-                <div className="flex items-center justify-center h-full max-w-[583px] pl-20 mt-5">
+                <div className="flex items-center justify-center h-full max-w-[583px] pl-20 mt-5 mb-14">
                     <div className='flex flex-col gap-5'>
                         <div className="text-Gamma-300 text-xl font-semibold leading-normal">Leerpad</div>
                         <div className=""><span className="text-Alpha-700 text-[64px] font-extrabold font-['Lato'] leading-[64px]">I’m Blue </span><span className="text-Alpha-300 text-[64px] font-extrabold font-['Lato'] leading-[64px]">(onboarding)</span></div>
